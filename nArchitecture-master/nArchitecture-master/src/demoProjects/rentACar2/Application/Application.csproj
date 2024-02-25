@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Features\Brands\Commands\CreateBrand\" />
+    <Folder Include="Features\Brands\Constants\" />
+    <Folder Include="Features\Brands\Dtos\" />
+    <Folder Include="Features\Brands\Models\" />
+    <Folder Include="Features\Brands\Rules\" />
+    <Folder Include="Features\Brands\Queries\" />
+    <Folder Include="Features\Brands\Profiles\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Domain\Domain.csproj" />
+  </ItemGroup>
+
+</Project>
